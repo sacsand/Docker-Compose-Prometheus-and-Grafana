@@ -28,8 +28,8 @@
     tls off
 }
 
-:3000 {
-    proxy / grafana:3000 {
+:4000 {
+    proxy / grafana:4000 {
             transparent
             websocket
         }
